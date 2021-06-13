@@ -1,0 +1,229 @@
+body a{
+    text-decoration: none;
+    color: white;
+} 
+body a:hover{
+    color: orange !important;
+}
+*{
+    padding: 0;
+    border: 0;
+}
+.navbar-head{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-color: black;
+    padding: 0;
+    color:white !important;
+}
+
+.nav-link:hover{
+    border: 1px solid orange;
+}
+.navbar-toggler-icon{
+    background-color: rgb(14, 13, 13) !important;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.navbarText li{
+    font-weight: 600  !important;
+    float: right !important;
+    text-align: left;
+}
+
+
+/* service */
+.service{
+    padding: 80px 0;
+}
+.service-imgg{
+    width: 100px;
+    margin-top: 20px;
+    
+}
+.servicesColumn{
+    padding: 20px;
+}
+.servicesColumn a {
+    text-decoration: none;
+}
+.servicesColumn h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.service .btn-primary{
+    box-shadow: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, rgb(255, 166, 0), blue);
+}
+.service .btn-danger{
+    box-shadow: none;
+    border: none;
+    padding: 4px 15px;
+    border-radius: 20px;
+    background-color: blue !important;
+}
+.productsServicePictures{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+.title::before{
+    content: "";
+    background: #f09e06;
+    height: 5px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(55px);
+}
+.title::after{
+    content: "";
+    background: #f09e06;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+    display: block;
+    transform: translateY(6px);
+}
+
+/* About us Mission */
+.about-us{
+    padding-bottom : 50px;
+    padding-top: 50px;
+}
+.about-us-CoreValues ul li{
+    
+    color: black !important;
+    display: inline;
+    padding-right: 15px;
+} 
+.about-title{
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 8%;
+}
+.about-paragraph{
+    margin: 10px 0;
+    margin-left: 20px;
+}
+.ligthDiv img{
+    border-radius: 50%;
+}
+
+/*----Reviews----*/
+.testimonials{
+    margin: 100px 0;
+}
+.Reviews{
+    border-left: 4px solid rgb(255, 166, 0);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Reviews img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0, 10px;
+}
+.about-us-CoreValues img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0, 10px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+    padding: 10 0;
+}
+
+
+.review-heading{
+    color: rgb(000, 000, 102);
+}
+.mission-header, .ServicePage-Heading{
+    color: rgb(000, 000, 102);
+    text-decoration: underline;
+}
+.contactForm{
+    margin-top: 500px;
+}
+.contactDetails{
+    margin-bottom: 4rem;
+}
+.service-column .col{
+    box-shadow: red;
+}
+.clearfix{
+     padding: 5px;
+    color: black;
+}
+/*---Footer section---*/
+.footer-body a{
+    color: rgba(255, 126, 6, 0.993);
+    text-decoration: none;
+}
+.FooterDiv{ 
+    color: white;
+}
+/* .footer-box{
+    padding: 20px;
+} */
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fa{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, rgb(255, 166, 0), blue);
+}
+.watsappIcon{
+    width: 65px;
+    position: sticky;
+    z-index:10;
+    bottom: 100px;
+    float: right;
+    
+}
+hr{
+    background-color: white;
+}
+
+.vision-div{
+    margin-top: 100px;
+}
+.Footer{
+    margin-top: 100px;
+}
+
+.product-image{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+.ServicePage-Heading{
+    text-decoration: none;
+}
